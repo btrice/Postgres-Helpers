@@ -5,20 +5,20 @@ date_default_timezone_set('UTC');
 
 class Partionner{
 
-	private $_parent_table_name;
-	private $_check_field;
-	private $_initial_start_date; 
-	private $_tables;
+    private $_parent_table_name;
+    private $_check_field;
+    private $_initial_start_date; 
+    private $_tables;
     private $_months_step;
     private $_create_child_tables = true;
     private $_create_indexes = true;
     private $_create_trigger_function = true;
     private $_create_trigger = true;
     private $_child_table_queries = "";
-	private $_index_queries = "";
-	private $_trigger_function_query = "";
-	private $_trigger_query = "";
-	private $_start_date;
+    private $_index_queries = "";
+    private $_trigger_function_query = "";
+    private $_trigger_query = "";
+    private $_start_date;
 
 	 public function __construct($parent_table_name, $check_field, $initial_start_date, $tables, $months_step){
 
