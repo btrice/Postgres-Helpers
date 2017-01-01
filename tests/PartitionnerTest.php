@@ -1,3 +1,4 @@
+ #!/usr/bin/env php
  <?php 
   require dirname(__FILE__) . '/../Partitionner.php';
  // parent_table_name, check_field, start_date, number of child table, months step
