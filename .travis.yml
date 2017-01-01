@@ -13,6 +13,8 @@ matrix:
   allow_failures:
     - php: hhvm
   fast_finish: true
+before_script:
+ - chmod +x PartitionnerTest.php
 script: ./tests/PartitionnerTest.php
 notifications:
   on_success: never
