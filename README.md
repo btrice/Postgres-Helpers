@@ -1,6 +1,7 @@
 # Postgres-Helpers
 
 [![Build Status](https://travis-ci.org/btrice/Postgres-Helpers.svg?branch=master)](https://travis-ci.org/btrice/Postgres-Helpers)
+
 Postgres partitioning table helpers in PHP
 
 Set up
