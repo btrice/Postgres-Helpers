@@ -3,7 +3,7 @@
 // Set timezone
 date_default_timezone_set('UTC');
 
-class Partionner{
+class Partitionner{
 
     private $_parent_table_name;
     private $_check_field;
