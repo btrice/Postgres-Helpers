@@ -6,7 +6,7 @@ Postgres partitioning table helpers in PHP
 
 Set up
 ==========
-*  **php tests/PartitionnerTests.php > partition.sql**
+*  **phpunit --configuration phpunit_config.xml --coverage-text**
 
 
 Contribuer
